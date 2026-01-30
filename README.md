@@ -7,7 +7,7 @@ web : https://www.bluedragonsec.com<br>
 <br>
 tested on :<br>
 - linux kernel 5.13.0-21-generic (compiled on lubuntu 20.04.5)<br>
-- linux lubuntu 20.04.2 - linux kernel 5.8<br>
+- linux lubuntu 20.04.2 - linux kernel 5.8
 <br>
 Original Author: Max Kellermann (max.kellermann@ionos.com)<br>
 CVE: CVE-2022-0847<br>
